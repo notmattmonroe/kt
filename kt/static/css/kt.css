@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya|Alegreya+Sans:400,500,700,800,700italic,500italic,400italic,800italic,300italic);
+@import url(https://fonts.googleapis.com/css?family=Chivo:400,900);
+body {  background-color: #000000;
+    background: url("/static/img/background.jpg") no-repeat center center fixed;  
+    background-size: cover;
+    color: #ffffff; }
+
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 { margin-top: 0; font-family: 'Chivo' sans-serif; font-weight: normal; color: #333; }
+@media (min-width: 1200px) {
+  .container {
+    width: 970px;
+  }
+}
+a:hover {
+    background: transparent;
+}
+.socialmedia {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+}
+.nav {
+	border-top: thin solid white;
+	text-align: center;
+	width: 100%;
+    background: -moz-linear-gradient(top, rgba(0,0,0,0.65) 0%, rgba(0,0,0,0) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(0,0,0,0.65) 0%,rgba(0,0,0,0) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a6000000', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+.nav a:hover {
+    color: red;
+    background-color: transparent !important;
+}
+.nav a {
+	color: #ffffff;
+}
+.jumbotron {
+    -webkit-border-radius: 15px;
+     -moz-border-radius: 15px;
+    background-color: #000000;
+	border-radius: 15px;
+    width: 100%;
+}
+.header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center:
+  width: 100%;
+}
+.header img{
+display: block;
+    margin: auto;
+}
+.footer {
+  color: #999;
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+}
+.footer p:last-child {
+  margin-bottom: 0;
+}
